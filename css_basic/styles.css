@@ -1,37 +1,42 @@
-/* Body is the main container */
+/* General background */
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
+    background: #f5f7fa;
   }
   
-  /* Main contains article + aside */
-  main {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+  /* Header styling */
+  header {
+    background: #333;
+    color: white;
   }
   
-  /* Article takes 2/3 of the space */
-  article {
-    flex: 2;
-    overflow-y: auto;
-    padding: 1rem;
-  }
-  
-  /* Aside takes 1/3 of the space */
-  aside {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1rem;
-  }
-  
-  /* Optional styling to visualize layout */
-  header, footer {
-    padding: 1rem;
-    background: #f2f2f2;
-    text-align: center;
+  header a {
+    color: white;
     font-weight: bold;
+  }
+  
+  header li.logo {
+    font-size: 32px;
+    color: gold;
+    margin-right: 20px;
+  }
+  
+  /* Article content */
+  article {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Sidebar */
+  aside {
+    background: #fafafa;
+    border-left: 2px solid #ddd;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
   }
   
